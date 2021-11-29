@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour {  //Declaração da Classe
       if(inputAxis > 0)
       {
          transform.eulerAngles = new Vector2(0f,0f);
-      }
+            rb2d.rotation = rb2d.rotation*180;    }
         if(inputAxis < 0)
       {
          transform.eulerAngles = new Vector2(0f,180f);
